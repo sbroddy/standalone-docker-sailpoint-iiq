@@ -15,7 +15,11 @@ For example, under OpenJDK 16, the build fails at present (12/2021).
 The build also fails under the default v17 Oracle Java SE Development 
 Kit environment on the Apple M1. This method of building the WAR 
 file should eliminate the need to install additional or alternate 
-dependencies to the hosts's environment by building the WAR file from a container.
+dependencies to the hosts's environment by building the WAR file 
+from a container.
+
+Docker Desktop users on Apple M1 may benefit from selecting the 
+experimental virtualization framework in Docker Desktop.
 
 # Usage
 
